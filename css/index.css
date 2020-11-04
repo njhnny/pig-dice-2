@@ -1,33 +1,38 @@
-*{
+* {
   max-width: 100%;
   margin: 0%;
   padding: 0%;
 }
-.jumbotron {
 
+p {
+  font-family: 'Chango', cursive;
 }
+
 h1 {
   font-family: 'Chango', cursive;
-
 }
+
 
 #btn {
   font-family: 'Chango', cursive;
 }
 
+#score  {
+  font-family: 'Chango', cursive;
+}
+#total {
+  font-family: 'Chango', cursive;
+}
 
 body {
   text-align: center;
   background-color: aqua;
   justify-content: center;
   align-items: center;  
-
-
-
-
-#background {
-
 }
+
+
+
 
 
 
