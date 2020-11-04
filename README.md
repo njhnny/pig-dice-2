@@ -28,9 +28,9 @@ Describe: diceRoll();
 test: Dice roll, Generate random number between 1-6.
 expect: diceRoll().toEqual(input 1-6)
 
-Describe: 
-test: 
-expect: 
+Describe: roundScore();
+test: for each roll, add dice roll value to variable unless value is equal to 1
+expect: roundscore() .toEqual(var += dice roll)
 
 Describe: 
 test: 
