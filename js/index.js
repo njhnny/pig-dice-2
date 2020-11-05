@@ -4,6 +4,7 @@
 
 let score = 0;
 let total = 0;
+let player = "player1";
 function diceRoll() {
   let dice = Math.floor( Math.random() * 6 ) +1;
   
@@ -12,9 +13,16 @@ function diceRoll() {
        
      } else {
        score = (0);
-     }
+       if (player = "player1") {
+         player = ("player2");
+       } else {
+         player = ("player1");
+       }
+       $("p","currentplayer").text(player);
+     } 
      $("p","#score").text(score);
      $("p","#dice").text(dice);
+     $("p","currentplayer").text(player);
  };
  function hold() {
   let holdDisplay = (total += score);
@@ -22,6 +30,8 @@ function diceRoll() {
   $("p","#total").text(holdDisplay);
   $("p","#dice").text("");
   score = (0);
+  $("p","#score").text(score);
+  
  };
  
  
