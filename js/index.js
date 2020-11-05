@@ -1,7 +1,4 @@
 // BUSINESS LOGIC
-
-
-
 let score = 0;
 let total = 0;
 let player = "player1";
@@ -12,11 +9,10 @@ function diceRoll() {
        score = (score += dice); 
      } else {
        score = (0);
-       if (player = "player1" && player ) {
-         player = ("player2");
+       
        } 
        
-     } 
+     
      $("p","#score").text(score);
      $("p","#dice").text(dice);
      $("p","#currentplayer").text(player);
