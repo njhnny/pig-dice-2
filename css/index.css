@@ -3,8 +3,11 @@
   margin: 0%;
   padding: 0%;
 }
+.jumbotron {
+  font-family: 'Chango', cursive;
+}
 
-p {
+.btn {
   font-family: 'Chango', cursive;
 }
 

@@ -6,23 +6,20 @@ let score = 0;
 let total = 0;
 let player = "player1";
 function diceRoll() {
+  $("p","#currentplayer").text(player);
   let dice = Math.floor( Math.random() * 6 ) +1;
-  
      if (dice > 1) {
-       score = (score += dice);
-       
+       score = (score += dice); 
      } else {
        score = (0);
-       if (player = "player1") {
+       if (player = "player1" && player ) {
          player = ("player2");
-       } else {
-         player = ("player1");
-       }
-       $("p","currentplayer").text(player);
+       } 
+       
      } 
      $("p","#score").text(score);
      $("p","#dice").text(dice);
-     $("p","currentplayer").text(player);
+     $("p","#currentplayer").text(player);
  };
  function hold() {
   let holdDisplay = (total += score);
